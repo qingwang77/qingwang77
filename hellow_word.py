@@ -11,11 +11,15 @@
 # [0 36)
 
 # 今有雉兔同笼，上有三十五头，下有九十四足，问雉兔各几何？
-# for ji in range(36):
-#     tu = 35 - ji
-#     if ji * 2 + tu * 4 == 94:
-#         print(f"chiken has {ji} zhi, tuzi has {tu} zhi")
-#         break
+for ji in range(36):
+    print(f'now ji is {ji} zhi')
+    tu = 35 - ji
+    print(f'now tu is {tu} zhi')
+    print(f"now total legs  is {ji * 2 + tu * 4}")
+    if ji * 2 + tu * 4 == 94:
+        print(f"chiken has {ji} zhi, tuzi has {tu} zhi")
+        print(f"ji suan jie shu")
+        break
 
 
 
